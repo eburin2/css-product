@@ -25,13 +25,14 @@
 .head li {
   display: inline;
   padding: 20px 20px 10px 10px;
+  text-decoration: none;
 }
 
 .lingo {
   font-size: 20px;
-  position: absolute;
-  left: 880px;
-  top: 220px;
+  position: relative;
+  left: 830px;
+  top: 20px;
   font-family: 'Inconsolata', monospace;
 }
 
@@ -75,6 +76,7 @@ h1 {
   margin: 10px;
   font-size: 25px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .photos {
@@ -122,4 +124,26 @@ input {
   background-color: black;
   color: white;
   border-radius: 8px;
+}
+
+p.lingo::first-line {
+  color: #000;
+  font-size: 20px;
+}
+
+p.color::first-line {
+  color: lightgrey;
+  font-size: 30px;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:link {
+  color: darkgrey;
+}
+
+a:active {
+  color: black;
 }
