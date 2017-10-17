@@ -146,7 +146,7 @@ a:link {
 }
 
 a:active {
-  color: red;
+  color: blue;
 }
 
 p::first-letter {
