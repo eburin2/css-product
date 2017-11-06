@@ -56,6 +56,7 @@ h1 {
   position: relative;
   clear: both;
   font-family: 'Anton', sans-serif;
+  top: -85px;
 }
 
 .image {
@@ -67,6 +68,8 @@ h1 {
   position: relative;
   box-shadow: 0px 0px 30px 30px white inset;
   text-align: center;
+  overflow: none;
+
 }
 
 .content {
@@ -159,3 +162,7 @@ a:active {
 p::first-letter {
   font-weight: bold;
 }
+
+/*ul {
+  background-color: silver;
+}*/
