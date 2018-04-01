@@ -3,9 +3,7 @@
 }
 
 .container {
-  width: 1400px;
-  margin: auto;
-  overflow: auto;
+  width: 100vw;
 }
 
 .head {
@@ -61,7 +59,7 @@ h1 {
 }
 
 .image {
-  width: 75%;
+  width: 1000px;;
   height: 670px;
   background-image: url("../img/turntable7.jpeg");
   background-size:cover;
