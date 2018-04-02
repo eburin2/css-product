@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
-  width: 100vw;
+  width: 90vw;
 }
 
 .head {
@@ -28,14 +29,15 @@
 .lingo {
   font-size: 20px;
   position: relative;
-  left: 830px;
+  left: 500px;
   top: 20px;
   font-family: 'Inconsolata', monospace;
 }
 
 .price {
   position: relative;
-  left: 800px;
+  left: 500px;
+  margin-top: 30px;
   font-size: 50px;
   font-weight: bold;
   font-family: 'Anton', sans-serif;
@@ -43,9 +45,10 @@
 
 .color {
   position: relative;
-  top: -90px;
-  left: 1000px;
+  top: -100px;
+  left: 700px;
   font-family: 'Inconsolata', monospace;
+  margin-top: 40px;
 }
 
 h1 {
@@ -161,4 +164,19 @@ p::first-letter {
 
 #one {
   margin-left: 170px;
+}
+
+@media only screen and (max-width: 1350px) {
+  ul {
+    margin-bottom: 100px;
+  }
+
+  .thumbnail {
+    margin-left: 30px;
+  }
+
+  #ipsum {
+    margin-left: 50px;
+    margin-right: -35px;
+  }
 }
