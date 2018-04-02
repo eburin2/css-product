@@ -181,6 +181,10 @@ p::first-letter {
     margin-bottom: 100px;
   }
 
+  form {
+    margin-top: 50px;
+  }
+
   .thumbnail {
     margin-left: 30px;
   }
